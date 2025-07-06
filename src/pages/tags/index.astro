@@ -3,7 +3,7 @@
 import Layout from '../../layouts/BaseLayout.astro';
 import { getAllVideos, type VideoData } from '../../utils/data.ts';
 import { slugify } from '../../utils/slugify.ts';
-import { desk, nama, url } from '../../../utils/site';
+import { desk, nama, url } from '../../utils/site';
 export const prerender = true;
 
 const allVideos: VideoData[] = await getAllVideos();
