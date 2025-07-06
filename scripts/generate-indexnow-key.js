@@ -1,7 +1,7 @@
 // scripts/generate-indexnow-key.js
 import fs from 'fs/promises';
 import path from 'path';
-import { index } from '../src/utils/site';
+import { index } from '../src/utils/site.js';
 
 const API_KEY_NAME = index;
 const PUBLIC_DIR = 'public'; // Folder public Astro Anda
